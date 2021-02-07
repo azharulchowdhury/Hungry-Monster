@@ -1,0 +1,33 @@
+.search-div{
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#notFound{
+    display: none;
+    text-align: center;
+    height: 200px;
+    background-color: red;
+}
+.food-item{
+    border: 1px solid goldenrod;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    width: 250px;
+    height:320px;
+
+}
+.food-item img{
+    width: 95%;
+}
+#mealList{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap:30px;
+}
+#ingredients{
+    background-color: aqua;
+    list-style: none;
+}
