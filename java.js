@@ -18,6 +18,7 @@ function menuSelection(){
 function displayMeals(data){
     const itemName=data.meals;
     mealList=document.getElementById("mealList");
+    mealList.innerHTML="";
     for(let i=0;i<itemName.length;i++){
         item=itemName[i];
         console.log(item);
